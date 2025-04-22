@@ -4,19 +4,16 @@ image: "frangoteam/fuxa"
 version: "1.2.4"
 url: "https://github.com/SmartLiving-Rocks/FUXA/"
 slug: "fuxa-slr"
-webui: "http://[HOST]:[PORT:1881]/home"
 
-# Hier beginnst du die Ingress‑Einstellungen
+# ===== Ingress aktivieren =====
 ingress: true
-ingress_entry: "home"
+ingress_entry: "index.html"
 panel:
   sidebar_title: "FUXA"
   sidebar_icon: "mdi:chart-timeline-variant"
   url_path: "fuxa"
-# Ende Ingress
+# ==============================
 
-panel_icon: mdi:dog
-panel_title: FUXA
 environment:
   LOG_LEVEL: "info"
 options: {}
